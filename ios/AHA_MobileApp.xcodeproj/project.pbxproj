@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* AHA_MobileAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AHA_MobileAppTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		533BA697DB2D49649B5B4AB4 /* settingImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C6957936AD14FC891737FE8 /* settingImage.png */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9B6C95B73C7D41648E2A4F39 /* settingImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A81C7E1167C4B51853B76F4 /* settingImage@2x.png */; };
+		B59AC535D7F92BD7B6772034 /* libPods-AHA_MobileApp-AHA_MobileAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1643E717324D8A1EA8430BD4 /* libPods-AHA_MobileApp-AHA_MobileAppTests.a */; };
+		BBE8B606B54D445E97B4C1B4 /* settingImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFB31E5DF011494E99ACA074 /* settingImage@3x.png */; };
+		D071CE00173159F144470C1B /* libPods-AHA_MobileApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B8199FA2FBC7AF90EBBEA9 /* libPods-AHA_MobileApp.a */; };
+		E570E3A228812B2200BB93C0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E570E3A128812B2200BB93C0 /* File.swift */; };
+		E5979201283CBBA60008EB0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5979200283CBBA50008EB0D /* GoogleService-Info.plist */; };
+		FA47EA9D26B950B4004D0941 /* Asap-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9326B950B4004D0941 /* Asap-MediumItalic.ttf */; };
+		FA47EA9E26B950B4004D0941 /* Asap-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9426B950B4004D0941 /* Asap-VariableFont_wght.ttf */; };
+		FA47EA9F26B950B4004D0941 /* Asap-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9526B950B4004D0941 /* Asap-SemiBold.ttf */; };
+		FA47EAA026B950B4004D0941 /* Asap-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9626B950B4004D0941 /* Asap-SemiBoldItalic.ttf */; };
+		FA47EAA126B950B4004D0941 /* Asap-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9726B950B4004D0941 /* Asap-Medium.ttf */; };
+		FA47EAA226B950B4004D0941 /* Asap-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9826B950B4004D0941 /* Asap-Italic.ttf */; };
+		FA47EAA326B950B4004D0941 /* Asap-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9926B950B4004D0941 /* Asap-Italic-VariableFont_wght.ttf */; };
+		FA47EAA426B950B4004D0941 /* Asap-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9A26B950B4004D0941 /* Asap-BoldItalic.ttf */; };
+		FA47EAA526B950B4004D0941 /* Asap-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9B26B950B4004D0941 /* Asap-Bold.ttf */; };
+		FA47EAA626B950B4004D0941 /* Asap-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA47EA9C26B950B4004D0941 /* Asap-Regular.ttf */; };
+		FA90CBE2279EA50F00CD3A2F /* Fix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA90CBE1279EA50F00CD3A2F /* Fix.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = AHA_MobileApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* AHA_MobileAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHA_MobileAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AHA_MobileAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHA_MobileAppTests.m; sourceTree = "<group>"; };
+		04099E52289BCA8800329881 /* AHA_MobileAppRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AHA_MobileAppRelease.entitlements; path = AHA_MobileApp/AHA_MobileAppRelease.entitlements; sourceTree = "<group>"; };
+		04277209283BAF92006881B8 /* AHA_MobileApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = AHA_MobileApp.entitlements; path = AHA_MobileApp/AHA_MobileApp.entitlements; sourceTree = "<group>"; };
+		052BFEFF69144D1E82241C2B /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AHA_MobileApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHA_MobileApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AHA_MobileApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AHA_MobileApp/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AHA_MobileApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AHA_MobileApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AHA_MobileApp/main.m; sourceTree = "<group>"; };
+		1643E717324D8A1EA8430BD4 /* libPods-AHA_MobileApp-AHA_MobileAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AHA_MobileApp-AHA_MobileAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B320E6A58F145B3B7BDB150 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		433769F2B6914C87AA6693B6 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		6277FCA5CC9D43B99BE8AAE7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		65376885270384190056658D /* AHA_MobileApp-Bridging-Header.h 21-05-36-521.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AHA_MobileApp-Bridging-Header.h 21-05-36-521.h"; path = "../../../../.Trash/AHA_MobileApp-Bridging-Header.h 21-05-36-521.h"; sourceTree = "<group>"; };
+		653768862703841D0056658D /* AHA_MobileApp-Bridging-Header.h 21-05-36-521.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHA_MobileApp-Bridging-Header.h 21-05-36-521.h"; sourceTree = "<group>"; };
+		69D041D87D0B05F46210E4B1 /* Pods-AHA_MobileApp-AHA_MobileAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHA_MobileApp-AHA_MobileAppTests.release.xcconfig"; path = "Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A81C7E1167C4B51853B76F4 /* settingImage@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "settingImage@2x.png"; path = "../src/assets/fonts/settingImage/settingImage@2x.png"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AHA_MobileApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85450DFC0DB3453292F9564D /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		8C6957936AD14FC891737FE8 /* settingImage.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = settingImage.png; path = ../src/assets/fonts/settingImage/settingImage.png; sourceTree = "<group>"; };
+		8F7AB965168343DDB66153A4 /* Pods-AHA_MobileApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHA_MobileApp.debug.xcconfig"; path = "Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp.debug.xcconfig"; sourceTree = "<group>"; };
+		96D8101726DC4348B70EAD5F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		9794E3D0447245A3B7FC8080 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		9E2CD8FDD7704AAE851DAF37 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		AFB31E5DF011494E99ACA074 /* settingImage@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "settingImage@3x.png"; path = "../src/assets/fonts/settingImage/settingImage@3x.png"; sourceTree = "<group>"; };
+		B52FCA5521AB4AF68BA88575 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		B6125EDA4914478309466A80 /* Pods-AHA_MobileApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHA_MobileApp.release.xcconfig"; path = "Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp.release.xcconfig"; sourceTree = "<group>"; };
+		B9C837662D774D538A7B2354 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		BF78A0F5A66A4E76B7185047 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C0D24B3ECC724B929C68061C /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		CF0D33A6029149B5BBC2C905 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		D96546B0FF3048ED85A1531B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		DE1545D017A6463CB0AF26CC /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		E570E3A128812B2200BB93C0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E5979200283CBBA50008EB0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "AHA_MobileApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE3E63E555AB3421E11DDB45 /* Pods-AHA_MobileApp-AHA_MobileAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHA_MobileApp-AHA_MobileAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0744F5929DB47B893A0ED1A /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		F6B8199FA2FBC7AF90EBBEA9 /* libPods-AHA_MobileApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AHA_MobileApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA47EA9326B950B4004D0941 /* Asap-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-MediumItalic.ttf"; path = "../src/assets/fonts/Asap-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FA47EA9426B950B4004D0941 /* Asap-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-VariableFont_wght.ttf"; path = "../src/assets/fonts/Asap-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FA47EA9526B950B4004D0941 /* Asap-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-SemiBold.ttf"; path = "../src/assets/fonts/Asap-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA47EA9626B950B4004D0941 /* Asap-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Asap-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FA47EA9726B950B4004D0941 /* Asap-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Medium.ttf"; path = "../src/assets/fonts/Asap-Medium.ttf"; sourceTree = "<group>"; };
+		FA47EA9826B950B4004D0941 /* Asap-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Italic.ttf"; path = "../src/assets/fonts/Asap-Italic.ttf"; sourceTree = "<group>"; };
+		FA47EA9926B950B4004D0941 /* Asap-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Italic-VariableFont_wght.ttf"; path = "../src/assets/fonts/Asap-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		FA47EA9A26B950B4004D0941 /* Asap-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-BoldItalic.ttf"; path = "../src/assets/fonts/Asap-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FA47EA9B26B950B4004D0941 /* Asap-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Bold.ttf"; path = "../src/assets/fonts/Asap-Bold.ttf"; sourceTree = "<group>"; };
+		FA47EA9C26B950B4004D0941 /* Asap-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Asap-Regular.ttf"; path = "../src/assets/fonts/Asap-Regular.ttf"; sourceTree = "<group>"; };
+		FA90CBE1279EA50F00CD3A2F /* Fix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fix.swift; sourceTree = "<group>"; };
+		FA90CBE3279EBA2D00CD3A2F /* AHA_MobileApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AHA_MobileApp-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59AC535D7F92BD7B6772034 /* libPods-AHA_MobileApp-AHA_MobileAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D071CE00173159F144470C1B /* libPods-AHA_MobileApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* AHA_MobileAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* AHA_MobileAppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = AHA_MobileAppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* AHA_MobileApp */ = {
+			isa = PBXGroup;
+			children = (
+				04099E52289BCA8800329881 /* AHA_MobileAppRelease.entitlements */,
+				04277209283BAF92006881B8 /* AHA_MobileApp.entitlements */,
+				65376885270384190056658D /* AHA_MobileApp-Bridging-Header.h 21-05-36-521.h */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				E570E3A128812B2200BB93C0 /* File.swift */,
+			);
+			name = AHA_MobileApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				F6B8199FA2FBC7AF90EBBEA9 /* libPods-AHA_MobileApp.a */,
+				1643E717324D8A1EA8430BD4 /* libPods-AHA_MobileApp-AHA_MobileAppTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CB42DFF2F1C4071BC08A87F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8C6957936AD14FC891737FE8 /* settingImage.png */,
+				6A81C7E1167C4B51853B76F4 /* settingImage@2x.png */,
+				AFB31E5DF011494E99ACA074 /* settingImage@3x.png */,
+				D96546B0FF3048ED85A1531B /* AntDesign.ttf */,
+				F0744F5929DB47B893A0ED1A /* Entypo.ttf */,
+				CF0D33A6029149B5BBC2C905 /* EvilIcons.ttf */,
+				6277FCA5CC9D43B99BE8AAE7 /* Feather.ttf */,
+				052BFEFF69144D1E82241C2B /* FontAwesome.ttf */,
+				B9C837662D774D538A7B2354 /* FontAwesome5_Brands.ttf */,
+				9E2CD8FDD7704AAE851DAF37 /* FontAwesome5_Regular.ttf */,
+				1B320E6A58F145B3B7BDB150 /* FontAwesome5_Solid.ttf */,
+				85450DFC0DB3453292F9564D /* Fontisto.ttf */,
+				433769F2B6914C87AA6693B6 /* Foundation.ttf */,
+				B52FCA5521AB4AF68BA88575 /* Ionicons.ttf */,
+				BF78A0F5A66A4E76B7185047 /* MaterialCommunityIcons.ttf */,
+				96D8101726DC4348B70EAD5F /* MaterialIcons.ttf */,
+				DE1545D017A6463CB0AF26CC /* Octicons.ttf */,
+				C0D24B3ECC724B929C68061C /* SimpleLineIcons.ttf */,
+				9794E3D0447245A3B7FC8080 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E5979200283CBBA50008EB0D /* GoogleService-Info.plist */,
+				FA90CBE3279EBA2D00CD3A2F /* AHA_MobileApp-Bridging-Header.h */,
+				FA90CBE1279EA50F00CD3A2F /* Fix.swift */,
+				FA47EA9B26B950B4004D0941 /* Asap-Bold.ttf */,
+				FA47EA9A26B950B4004D0941 /* Asap-BoldItalic.ttf */,
+				FA47EA9926B950B4004D0941 /* Asap-Italic-VariableFont_wght.ttf */,
+				FA47EA9826B950B4004D0941 /* Asap-Italic.ttf */,
+				FA47EA9726B950B4004D0941 /* Asap-Medium.ttf */,
+				FA47EA9326B950B4004D0941 /* Asap-MediumItalic.ttf */,
+				653768862703841D0056658D /* AHA_MobileApp-Bridging-Header.h 21-05-36-521.h */,
+				FA47EA9C26B950B4004D0941 /* Asap-Regular.ttf */,
+				FA47EA9526B950B4004D0941 /* Asap-SemiBold.ttf */,
+				FA47EA9626B950B4004D0941 /* Asap-SemiBoldItalic.ttf */,
+				FA47EA9426B950B4004D0941 /* Asap-VariableFont_wght.ttf */,
+				13B07FAE1A68108700A75B9A /* AHA_MobileApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* AHA_MobileAppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				F58029909EA455E6D5B2C3AF /* Pods */,
+				7CB42DFF2F1C4071BC08A87F /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* AHA_MobileApp.app */,
+				00E356EE1AD99517003FC87E /* AHA_MobileAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58029909EA455E6D5B2C3AF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F7AB965168343DDB66153A4 /* Pods-AHA_MobileApp.debug.xcconfig */,
+				B6125EDA4914478309466A80 /* Pods-AHA_MobileApp.release.xcconfig */,
+				EE3E63E555AB3421E11DDB45 /* Pods-AHA_MobileApp-AHA_MobileAppTests.debug.xcconfig */,
+				69D041D87D0B05F46210E4B1 /* Pods-AHA_MobileApp-AHA_MobileAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* AHA_MobileAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AHA_MobileAppTests" */;
+			buildPhases = (
+				BDF38ECFA34CE03716776BA7 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				3BD162C103A2DBD2250A6911 /* [CP] Embed Pods Frameworks */,
+				FC084F42BCBF243106283FC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = AHA_MobileAppTests;
+			productName = AHA_MobileAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* AHA_MobileAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* AHA_MobileApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AHA_MobileApp" */;
+			buildPhases = (
+				29AAD6BA9EC4DFFE762E669D /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				643D171C51D4818410A917ED /* [CP] Embed Pods Frameworks */,
+				1414D46A26B524C4E9F12755 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHA_MobileApp;
+			productName = AHA_MobileApp;
+			productReference = 13B07F961A680F5B00A75B9A /* AHA_MobileApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AHA_MobileApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* AHA_MobileApp */,
+				00E356ED1AD99517003FC87E /* AHA_MobileAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA47EA9D26B950B4004D0941 /* Asap-MediumItalic.ttf in Resources */,
+				FA47EA9E26B950B4004D0941 /* Asap-VariableFont_wght.ttf in Resources */,
+				FA47EA9F26B950B4004D0941 /* Asap-SemiBold.ttf in Resources */,
+				FA47EAA026B950B4004D0941 /* Asap-SemiBoldItalic.ttf in Resources */,
+				FA47EAA126B950B4004D0941 /* Asap-Medium.ttf in Resources */,
+				FA47EAA226B950B4004D0941 /* Asap-Italic.ttf in Resources */,
+				FA47EAA326B950B4004D0941 /* Asap-Italic-VariableFont_wght.ttf in Resources */,
+				FA47EAA426B950B4004D0941 /* Asap-BoldItalic.ttf in Resources */,
+				FA47EAA526B950B4004D0941 /* Asap-Bold.ttf in Resources */,
+				E5979201283CBBA60008EB0D /* GoogleService-Info.plist in Resources */,
+				FA47EAA626B950B4004D0941 /* Asap-Regular.ttf in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				533BA697DB2D49649B5B4AB4 /* settingImage.png in Resources */,
+				9B6C95B73C7D41648E2A4F39 /* settingImage@2x.png in Resources */,
+				BBE8B606B54D445E97B4C1B4 /* settingImage@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1414D46A26B524C4E9F12755 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29AAD6BA9EC4DFFE762E669D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHA_MobileApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BD162C103A2DBD2250A6911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643D171C51D4818410A917ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp/Pods-AHA_MobileApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF38ECFA34CE03716776BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHA_MobileApp-AHA_MobileAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC084F42BCBF243106283FC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHA_MobileApp-AHA_MobileAppTests/Pods-AHA_MobileApp-AHA_MobileAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* AHA_MobileAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				E570E3A228812B2200BB93C0 /* File.swift in Sources */,
+				FA90CBE2279EA50F00CD3A2F /* Fix.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* AHA_MobileApp */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3E63E555AB3421E11DDB45 /* Pods-AHA_MobileApp-AHA_MobileAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AHA_MobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHA_MobileApp.app/AHA_MobileApp";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D041D87D0B05F46210E4B1 /* Pods-AHA_MobileApp-AHA_MobileAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = AHA_MobileAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHA_MobileApp.app/AHA_MobileApp";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7AB965168343DDB66153A4 /* Pods-AHA_MobileApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = AHA_MobileApp/AHA_MobileApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = BM9J68TLP2;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = AHA_MobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.19;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahaart.app;
+				PRODUCT_NAME = AHA_MobileApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AHA_MobileApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6125EDA4914478309466A80 /* Pods-AHA_MobileApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = AHA_MobileApp/AHA_MobileAppRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = BM9J68TLP2;
+				INFOPLIST_FILE = AHA_MobileApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.19;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ahaart.app;
+				PRODUCT_NAME = AHA_MobileApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AHA_MobileApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "arm64 ";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(inherited)\"";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AHA_MobileAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AHA_MobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AHA_MobileApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

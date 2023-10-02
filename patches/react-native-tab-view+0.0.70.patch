@@ -1,0 +1,15 @@
+diff --git a/node_modules/react-native-tab-view/src/TabViewPagerAndroid.js b/node_modules/react-native-tab-view/src/TabViewPagerAndroid.js
+index 4c08526..d4cdb93 100644
+--- a/node_modules/react-native-tab-view/src/TabViewPagerAndroid.js
++++ b/node_modules/react-native-tab-view/src/TabViewPagerAndroid.js
+@@ -2,8 +2,9 @@
+ 
+ import * as React from 'react';
+ import PropTypes from 'prop-types';
+-import { View, ViewPagerAndroid, StyleSheet, I18nManager } from 'react-native';
++import { View, StyleSheet, I18nManager } from 'react-native';
+ import { SceneRendererPropType } from './TabViewPropTypes';
++import ViewPagerAndroid from '@react-native-community/viewpager'
+ import type { SceneRendererProps, Route } from './TabViewTypeDefinitions';
+ 
+ type PageScrollEvent = {
